@@ -62,7 +62,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     if (user.name === "Abhishek Rana" && user.password === "Testing") {
-      toast.success("Welcome to Admin !!!");
+      toast.success("Welcome to controller room");
       dispatch(setToken("user-token"));
       navigate("/admin/create-product");
     } else {
